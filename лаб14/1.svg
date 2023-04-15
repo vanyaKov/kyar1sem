@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300"  height="1300" >
+    <text x="150" y="200" stroke="bisque" font-size="36px">Hello world</text>
+    <polyline points="100 200 400 200" stroke="black" />
+</svg>

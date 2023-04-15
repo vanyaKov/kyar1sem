@@ -1,0 +1,63 @@
+h1{
+    color: rgb(45, 45, 45);
+}
+
+h2{
+    margin-right: 30px;
+    height: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: rgb(198, 184, 184);
+}
+
+#zero{
+    height: 0px;
+}
+
+aside{
+    height: 0px;
+}
+
+#first{
+    font-family: Verdana;
+    font-size: auto;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+ul{
+    width: auto;
+    padding: 30px;
+    height: 0px;
+    
+    
+}
+
+li{
+    margin-left: 985px;
+}
+
+#second{
+    
+    font-size: auto;
+    font-family: Arial;
+    margin: 30px;
+    color: red;
+}
+
+#third{
+    font-size: auto;
+    font-family: Georgia;
+    margin: 30px;
+    color: yellow;
+}
+
+table{
+    margin-left: 30px ;
+}
+
+p{
+    line-height: 1.5px;
+}

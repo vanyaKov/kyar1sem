@@ -1,0 +1,128 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 180px;
+    grid-auto-rows: 180px;
+    grid-template-areas: 
+    "div1 div2 div3 div4 div5"
+    "div6 div7 div8 gif1 gif1"
+    "gif2 gif2 div11 gif1 gif1"
+    "gif2 gif2 div12 div13 div14";
+
+    grid-gap: 5px;
+    border: none;
+}
+
+div{
+    grid-area: div;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    background-size: 200px 200px;
+    
+}
+
+.div1{
+    grid-area: div1;
+    background-image: url(alibi.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+
+.div2{
+    grid-area: div2;
+    background-image: url(ash.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+
+.div3{
+    grid-area: div3;
+    background-image: url(blitz.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+
+.div4{
+    grid-area: div4;
+    background-image: url(doc.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+
+.div5{
+    grid-area: div5;
+    background-image: url(finka.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+
+.div6{
+    grid-area: div6;
+    background-image: url(fuze.png);
+    background-repeat: no-repeat; 
+    background-position: 40px;
+}
+
+
+.div7{
+    grid-area: div7;
+    background-image: url(kali.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+
+.div8{
+    grid-area: div8;
+    background-image: url(kapkan.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+
+.div11{
+    grid-area: div11;
+    background-image: url(lion.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+
+.div12{
+    grid-area: div12;
+    background-image: url(maestro.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+
+.div13{
+    grid-area: div13;
+    background-image: url(zofia.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+
+.div14{
+    grid-area: div14;
+    background-image: url(melusi.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
+}
+
+.gif1{
+    grid-area: gif1;
+    background-image: url(Sr86.gif.mp4);
+}
+
+.gif2{
+    grid-area: gif2 ;
+    background-image: url(Sr86.gif.mp4);
+}

@@ -1,0 +1,78 @@
+.first{
+    width:1000px;
+    margin-left: 10px;
+}
+
+
+.first li{
+    display: inline-block;
+    position: relative;
+    border: 2px;
+    border-color: black;
+    border-style: solid ;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    text-align: center; 
+}
+
+
+ul li {
+    background-image: url("facultet.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    
+}
+
+.first li:hover{
+    background-position: 0px 0px;
+}
+
+.first li:nth-child(2):hover{
+    background-position: 0 -30px;
+}
+
+.first li:nth-child(3):hover{
+    background-position: 0 -90px;
+}
+
+.first li:nth-child(4):hover{
+    background-position: 0 -60px;
+}
+
+.first a{
+    text-decoration: none;
+    font-size:20px;
+    color: black;
+}
+
+.zero{
+    position: absolute;
+    margin: 9px; 
+    margin-left: -42px;
+    width: 150px;
+    list-style-type: none;
+}
+
+ .zero{
+    visibility: hidden;
+}
+
+.zero a{
+    display: block;    
+    border: 0px;
+    border-color: black;
+    border-style: solid;
+    font-size: 15px;
+    text-align: left;
+    
+}
+
+.zero li{
+    background-image: none;
+}
+.zero a:hover {background-color: #ddd;}
+.second:hover .zero {
+    visibility: visible;
+    opacity: 1;
+  }

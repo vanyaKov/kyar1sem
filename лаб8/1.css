@@ -1,0 +1,18 @@
+aside{
+    float: right;
+}
+
+a:link{
+    color: red;
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color:rgb(184, 134, 11)
+}
+

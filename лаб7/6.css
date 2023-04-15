@@ -1,0 +1,137 @@
+@keyframes zero {
+    0%{left: 0; top:0;}
+    25%{left: 50px; top: 0;}
+    50%{left: 100px; top: 0;}
+    75%{left: 150px; top: 0; }
+    100% {left: 200px; top:0;}
+}
+
+@keyframes first {
+    0%{left: 0; top:0;}
+    0%{transform: skew(15deg);}
+    25%{left: 50px; top: 0;}
+    25%{transform: skew(30deg);}
+    50%{left: 100px; top: 0;}
+    50%{transform: skew(45deg);}
+    75%{left: 150px; top: 0; }
+    75%{transform: skew(30deg);}
+    100% {left: 200px; top:0}
+    100%{transform: skew(15deg);}
+}
+
+@keyframes second {
+    0%{left: 0; top:0;}
+    50%{transform: translate(1180px);}
+    100%{transform: translate(0px);}
+    
+}
+
+@keyframes third {
+    0%{transform: translateY(50px);}
+    100%{transform: translateY(25px);}
+    
+    
+}
+
+@keyframes fourth {
+    0%{left: 0; top:0}
+    25%{left: 200px; top: 0;}
+    50%{left: 200px; top:200px}
+    75%{left: 0px; top: 200px;}
+    100%{left: 0px; top: 0;}
+    
+}
+
+@keyframes bright {
+    0%{color: aqua; filter: opacity(80%)}
+    25%{filter: opacity(20%)}
+    50%{filter: opacity(40%)}
+    75%{filter: opacity(20%)}
+    100%{filter: opacity(0%)}
+}
+div{
+    animation-name: bright;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.zero{
+    position: relative;
+    height: 150px;
+    animation-name: zero;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.first{
+    position: relative;
+    height: 150px;
+    animation-name: first;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.second{
+    position: relative;
+    height: 150px;
+    animation-name: second;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+
+.third{
+    position: relative;
+    height: 150px;
+    animation-name: third;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction:normal;
+}
+
+.fourth{
+    position: relative;
+    height: 150px;
+    animation-name: fourth;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    
+}
+
+.zero img{
+    
+    height: 150px;
+}
+
+.first img{
+    height: 150px;
+}
+
+.second img{
+    height: 150px;
+}
+
+.third img{
+    height: 150px;
+
+}
+
+.fourth img{
+    height: 150px;
+}
+
+figure img{
+    margin: 1px;
+}

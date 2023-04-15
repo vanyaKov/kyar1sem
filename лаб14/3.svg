@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="1300">
+    <path d="M 180, 200 L 100, 300 H 150 L 90, 400 H 150 V 450 H 200 V 400 H 260
+    L 200, 300 H 250 L 180, 200" stroke="black" fill="white" />
+    <path d="M 45, 180 L 50, 160 L 55, 180 L 70, 180 L 60, 190 L 65, 205 L 50, 195 L 35, 205  L 40, 190  L 30, 180 L 45, 180" stroke="black" fill="white" />
+</svg>

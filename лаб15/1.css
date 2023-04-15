@@ -1,0 +1,36 @@
+label{
+
+    display: inline-block;
+    margin-left: 20px;
+    width: 130px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  input{
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  footer{
+    position: fixed;
+    width: 100%;
+    background-color:sandybrown;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+  }
+form{  
+    margin-top: 40px; 
+    background-color:burlywood;
+    width:350px; border: 3px solid gray;
+}
+label{
+    width: 350px;
+    text-align: center; 
+    margin: 0;
+}
+
+img{
+    height: 150px;
+}

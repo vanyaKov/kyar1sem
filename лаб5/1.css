@@ -1,0 +1,23 @@
+table{
+    border: 1px solid #dc0606;
+	border-collapse: collapse; 
+}
+td{
+    border: 1px solid #dc0606;
+	border-collapse: collapse;
+}
+
+tr:first-child:nth-child(n+1){
+    background-color: aqua;
+}
+
+.one td:first-child{
+    background-color: aquamarine;
+}
+
+.two td:first-child{
+    background-color: aquamarine;
+}
+.three td:first-child{
+    background-color: aquamarine;
+}

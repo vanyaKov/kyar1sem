@@ -1,0 +1,48 @@
+form{
+    width: 400px;
+    margin-right: 400px;
+    border-right: 400px;
+    background-color: indigo;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+caption{
+    text-align: center;
+}
+
+#one, #two, #three,
+#four, #five, #six{
+   background-color: rgba(255,255,255,.5);
+   color: rgba(255,255,255,1);
+   border-radius: 5px;
+   box-shadow: inset 0 0 10px rgba(255,255,255,.5);
+   margin-left: 10px;
+}
+
+.field{
+    display: inline-block;
+    width: 150px;    
+    padding: 3px;
+}
+
+#seven, #eight{
+    background-color: navy;
+    color: #ffffff;
+    box-shadow: 0 0 4px white;
+}
+
+#one:focus{
+    background-color: black;
+}
+#two:focus{
+    background-color: black;
+}
+#three:focus{
+    background-color: black;
+}
+#four:focus{
+    background-color: black;
+}
+#six:focus{
+    background-color: black;
+}

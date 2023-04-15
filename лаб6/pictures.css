@@ -1,0 +1,59 @@
+div{
+    float: left;
+    margin: 10px;
+}
+.zero{
+    height: 100px;
+    width: 100px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    background-image: linear-gradient(180deg, blue, rgb(246, 0, 230),rgb(216, 29, 29)) ;
+}
+
+.first{
+    height: 100px;
+    width: 100px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    background-image: repeating-linear-gradient(45deg, red, red, blue, blue 10%) ;
+}
+
+.second{
+    height: 100px;
+    width: 100px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    background-image: radial-gradient(yellow, green) ;
+}
+
+.third{
+    height: 100px;
+    width: 100px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    background-image: repeating-radial-gradient(yellow, yellow, green, green 15%) ;
+}
+
+.fourth{
+    height: 100px;
+    width: 100px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    background-image:radial-gradient(yellow, green, transparent),
+                        linear-gradient(180deg, blue, rgb(247, 0, 255));
+}
+
+.fifth{
+    height: 100px;
+    width: 100px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    background-image: linear-gradient(90deg,yellow,green,transparent),
+    linear-gradient(180deg, black, black 5%, grey,grey 50%, white,white , blue, blue, rgb(255, 0, 217),rgb(255, 0, 217) );
+}

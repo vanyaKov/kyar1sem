@@ -1,0 +1,36 @@
+.zero figure{
+    margin-top: 10px;
+    display: block;
+    float: left;
+    margin: 10px;
+}
+.zero #first{
+    height: 420px;
+}
+
+.first figure{
+    height: 420px;
+    display: block;
+    float: left;
+    margin: 10px;
+}
+
+.second figure{
+    display: block;
+    float: left;
+    margin: 10px;
+}
+figcaption{
+    text-align: center;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    color: white;
+    background-color: black;
+}
+
+img{
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}

@@ -1,0 +1,98 @@
+table{
+    border: 1px solid #000000;
+	border-collapse: collapse; 
+    margin-left: 250px;
+    width: 25%;
+}
+td{
+    border: 1px solid #000000;
+	border-collapse: collapse;
+}
+
+caption{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#minus{
+    visibility: hidden;
+}
+
+#plus{
+    visibility: hidden;
+}
+
+.zero{
+    color: #ffffff;
+    background-color: #00008b;
+}
+
+.first :nth-child(3n){
+    background-color: rgb(220, 87, 109);
+}
+.first :nth-child(2n){
+    background-color: rgb(0, 232, 225);
+}
+.first :nth-child(4n){
+    background-color: rgb(31, 223, 40);
+}
+
+.second :nth-child(3n){
+    background-color: rgb(220, 87, 109);
+}
+.second :nth-child(2n){
+    background-color: rgb(0, 232, 225);
+}
+.second :nth-child(4n){
+    background-color: rgb(31, 223, 40);
+}
+
+.third :nth-child(3n){
+    background-color: rgb(220, 87, 109);
+}
+.third :nth-child(2n){
+    background-color: rgb(0, 232, 225);
+}
+.third :nth-child(4n){
+    background-color: rgb(31, 223, 40);
+}
+
+.fourth :nth-child(3n){
+    background-color: rgb(220, 87, 109);
+}
+.fourth :nth-child(2n){
+    background-color: rgb(0, 232, 225);
+}
+.fourth :nth-child(4n){
+    background-color: rgb(31, 223, 40);
+}
+
+.fifth :nth-child(3n){
+    background-color: rgb(220, 87, 109);
+}
+.fifth :nth-child(2n){
+    background-color: rgb(0, 232, 225);
+}
+.fifth :nth-child(4n){
+    background-color: rgb(31, 223, 40);
+}
+
+.sixth :nth-child(3n){
+    background-color: rgb(220, 87, 109);
+}
+.sixth :nth-child(2n){
+    background-color: rgb(0, 232, 225);
+}
+.sixth :nth-child(4n){
+    background-color: rgb(31, 223, 40);
+}
+
+.seventh :nth-child(2n){
+    background-color: rgb(0, 232, 225);
+}
+.seventh :nth-child(3n){
+    background-color: rgb(220, 87, 109);
+}
+.seventh :nth-child(4n){
+    background-color: rgb(31, 223, 40);
+}

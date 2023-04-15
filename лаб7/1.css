@@ -1,0 +1,45 @@
+@keyframes bright {
+    0%{color: aqua; filter: opacity(80%)}
+    25%{filter: opacity(20%)}
+    50%{filter: opacity(40%)}
+    75%{filter: opacity(20%)}
+    100%{filter: opacity(0%)}
+}
+div{
+    animation-name: bright;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+figure{
+    display: block;
+    float: left;
+}
+
+figure img{
+    height: 150px;
+}
+
+body{
+   background-color: white;
+}
+.zero:hover{
+    transform: scale(0.5);
+}
+
+
+.first:hover{
+    transform: rotate(45deg);
+}
+.second:hover{
+    transform: translate(50px);
+}
+
+.third:hover{
+    transform: skew(20deg);
+}

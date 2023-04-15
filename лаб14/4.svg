@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300"  height="1300">
+    <defs>
+        <linearGradient id="Mygradient" dur="5s" >
+            <stop offset="70%" stop-color="yellow">
+                <animate attributeName="stop-color" values="orange;green" dur="5s" fill="freeze"/>
+            </stop>
+            <stop offset="30%" stop-color="yellow">
+                <animate attributeName="stop-color" values="green;orange" dur="5s" fill="freeze" />
+            </stop>
+        </linearGradient>        
+    </defs>
+
+    <circle cx="200" cy="200" r="100px" stroke="blue" fill="blue"/>
+    <rect width="200" height="200" x="310" y="100" stroke="red" fill="red" stroke-width="5">
+        <animate attributeName="stroke" from="red" to="black" begin="mouseover" dur="3s" end="mouseout"/>
+    </rect>
+    <ellipse rx="200" ry="100" cx="720" cy="200" stroke="green" fill="green">
+        <animate attributeName="fill" begin="mouseover" dur="3s" end="mouseout" from="green" to="aqua"/>
+    </ellipse>
+    <polygon points="900 300, 1000 100, 1100 300" stroke="yellow" fill="url(#Mygradient)" stroke-width="5">
+        <animate attributeName="stroke" begin="mouseover" dur="3s" end="mouseout" from="yellow" to="black"/> 
+    </polygon>
+    <polyline points="100 320, 550 320, 500 420, 1200 420" stroke="purple" fill="white" stroke-width="5" />
+</svg>

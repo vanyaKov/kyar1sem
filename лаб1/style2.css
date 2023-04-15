@@ -1,0 +1,25 @@
+body{
+    background: rgb(198, 184, 184);
+}
+
+p{
+    line-height: 1.5px;
+}
+
+h3{
+    margin-left: 300px;
+    width: 200px;
+    border:0px;
+}
+img{
+    margin-top: 10px;
+}
+
+a{
+  margin-bottom: 500px;
+}
+
+span{
+    font-family: Brush Script MT;
+    font-size: 25px;
+}

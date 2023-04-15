@@ -1,0 +1,63 @@
+@keyframes bright {
+    0%{color: aqua; filter: opacity(80%)}
+    25%{filter: opacity(20%)}
+    50%{filter: opacity(40%)}
+    75%{filter: opacity(20%)}
+    100%{filter: opacity(0%)}
+}
+
+div{
+    animation-name: bright;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+button{
+    margin: 10px;
+    display: block;
+    float: left;
+    width: 150px;
+    height: 30px;
+}
+
+.zero:hover{
+    color: white;
+    background-color: black;
+}
+
+.first:hover{
+    border: 3px;
+    border-style: solid;
+    border-color: red;
+    outline-style: solid;
+    outline-color: yellow;
+        
+}
+
+.second:hover{
+    border: 5px;
+    border-style: solid;
+    border-top-color: green;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: green;
+    
+}
+
+.third:hover{
+    border: 5px;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    border-left-color: blue;
+    border-right-color: blue;
+}
+
+.fourth:hover{
+    background-image: radial-gradient(yellow, rgb(255, 0, 234), rgb(86, 2, 241), rgb(0, 221, 255)) ;
+}

@@ -1,0 +1,8 @@
+p{
+    border: 5px;
+    border-color: red;
+    border-style: dashed;
+    box-sizing: border-box;
+    padding-top: 20px;
+    height: 50px;
+}

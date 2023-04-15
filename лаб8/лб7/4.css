@@ -1,0 +1,91 @@
+@keyframes bright {
+    0%{color: aqua; filter: opacity(80%)}
+    25%{filter: opacity(20%)}
+    50%{filter: opacity(40%)}
+    75%{filter: opacity(20%)}
+    100%{filter: opacity(0%)}
+}
+
+@keyframes zero {
+    0%{transform: rotateY(0deg);}
+    100%{left: 0; top: 0;}
+}
+
+@keyframes first {
+    0%{transform: rotateY(0deg);}
+    50%{}
+    100%{left: 30px;}
+    
+}
+
+@keyframes second {
+    0%{transform: rotateY(0deg);}
+    50%{}
+    100%{left: 60px;}
+}
+
+@keyframes third {
+    0%{transform: rotateY(0deg);}
+    50%{}
+    100%{left: 90px; top: 0;}
+}
+
+p img{
+    height: 150px;
+}
+
+div{
+    animation-name: bright;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+#zero{
+    position: relative;
+    animation-name: zero;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    transform: rotateY(35deg);
+ }
+
+#first{
+    position: relative;
+    right: 120px;
+    perspective: 100px;
+    transform: rotateY(35deg);
+    animation-name: first;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+
+#second{
+    position:relative;
+    right: 220px;
+    perspective: 2000px;
+    transform: rotateY(35deg);
+    animation-name: second;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+
+#third{
+    position: relative;
+    right: 320px;
+    transform: rotateY(35deg);
+    animation-name: third;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}

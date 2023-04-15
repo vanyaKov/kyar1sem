@@ -1,0 +1,26 @@
+.grid{
+    display: grid;
+    grid-template-rows: 700px;
+    grid-template-columns: 50px 600px 750px ;
+    grid-gap: 10px;
+    text-align: left;
+    border: none;
+    
+}
+
+div{
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.div1{
+    padding-left:15px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.div2, .div3{
+    font-size: 14px;
+}
+

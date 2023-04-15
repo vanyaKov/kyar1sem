@@ -1,0 +1,42 @@
+@keyframes bright {
+    0%{color: aqua; filter: opacity(80%)}
+    25%{filter: opacity(20%)}
+    50%{filter: opacity(40%)}
+    75%{filter: opacity(20%)}
+    100%{filter: opacity(0%)}
+}
+
+@keyframes change{
+    0%{background-image: url("doc.png"); background-size: 300px 300px;}
+    25%{background-image: url("zofia.png"); background-size: 300px 300px;}
+    50%{background-image: url("goyo.png"); background-size: 300px 300px;}
+    75%{background-image: url("amaru.png"); background-size: 300px 300px;}
+    100%{background-image: url("mozzie.png"); background-size: 300px 300px;}
+
+}
+
+#zero{
+    animation-name: bright;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+#first{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+#first:hover{
+    animation-name: change;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+ 
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<?xml-stylesheet type="text/css" href="12.xml"?>
+<xs:schema xmlns:xs ="http://www.w3.org/2001/XMLSchema">
+<xs:element name="body">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="ubi" type="xs:string"/>
+<xs:element name="r6" type="xs:string"/>
+<xs:element name="crit" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

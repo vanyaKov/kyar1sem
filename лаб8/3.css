@@ -1,0 +1,22 @@
+div{position: relative; display: inline-block;margin: 0;}
+button{
+    font-size: 20px;
+    background-color: yellow;
+    margin: 20px;
+    margin: 0;
+    width: 200px;
+    text-align: left;}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: orange; 
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+    color: black;
+}
+nav{display: none;position: absolute; margin: 0;}
+
+nav a{display: block;}
+nav a:hover {background-color: #ddd;}
+div:hover nav {display: block;}

@@ -1,0 +1,53 @@
+@keyframes diver{
+    0%{background-color: rgb(60, 0, 255);}
+    10%{background-color: rgb(60, 0, 230)}
+    20%{background-color: rgb(60, 0, 200);}
+    30%{background-color: rgb(101, 10, 126);}
+    40%{background-color: rgb(60, 3, 110);}
+    50%{background-color: purple}
+    60%{background-color: rgb(95, 2, 95)}
+    70%{background-color: rgb(72, 0, 72)}
+    80%{background-color: rgb(60, 0, 60);}
+    90%{background-color: rgb(93, 15, 69);}
+    100%{background-color: rgb(119, 58, 132);}
+    
+}
+
+@keyframes bright {
+    0%{color: aqua; filter: opacity(80%)}
+    25%{filter: opacity(20%)}
+    50%{filter: opacity(40%)}
+    75%{filter: opacity(20%)}
+    100%{filter: opacity(0%)}
+}
+
+#zero{
+    animation-name: bright;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+#diver{
+    animation-name: diver;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    
+}
+
+
+
+
+#diver{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin-left: 440px;
+    background-size: 300px,300px;
+}

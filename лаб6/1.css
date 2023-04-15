@@ -1,0 +1,102 @@
+h1{
+    color: rgb(45, 45, 45);
+}
+
+h2{
+    margin-right: 30px;
+    height: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(fit.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100px;
+    background-attachment: fixed;
+}
+
+#zero{
+    height: 0px;
+}
+
+aside{
+    height: 0px;
+}
+
+#first{
+    
+    font-family: Verdana;
+    font-size: auto;
+    float: right;
+    display: inline;
+    top: 100px;
+ }
+
+#first p{
+    margin-right: 380px;
+}
+
+ul{
+    width: auto;
+    padding: 30px;
+    height: 0px;
+}
+
+#zero li{
+    list-style-type: none;
+    background-image: url(galo.png);
+    background-repeat: no-repeat;
+    background-position-y: 5px ;
+    margin-left: 980px;
+}
+
+#second{
+    font-size: auto;
+    font-family: Arial;
+    margin-top: 40px;
+    margin-left: 160px;
+    color: red;
+    display: block;
+}
+
+#third{
+    font-size: auto;
+    font-family: Georgia;
+    margin-left: 160px;
+    color: rgb(255, 217, 0);
+    float: left;
+    display: inline;
+    border: none;
+
+}
+
+.third{
+    margin-top: 0px;
+    border: none;
+}
+
+
+p{
+    line-height: 1.5px;
+}
+
+#five{
+    font-size: auto;
+    font-family: Georgia;
+    margin-left: 160px;
+    color: rgb(82, 60, 160);
+    display: block;
+    float: left;
+}
+
+img{
+    margin-left: 40px;
+    display: inline;
+    height: 100px;
+}
+
+video{
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,140 @@
+table{
+    position: relative;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.first td{
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    width: 4em;
+}
+
+#first{
+    visibility: hidden;
+    width: 1em;
+    transform: rotate(90deg);
+}
+
+#third{
+    visibility: hidden;
+    width: 1em;
+    transform: rotate(90deg);
+}
+
+#eight,#seven,#six,#five,#four,#three,#two,#one{
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    height: 4em;
+}
+
+td{
+    background-color:rgb(168, 166, 166);
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.second td:nth-child(2n+2){
+    background-color: white;
+}
+
+.second td:nth-child(2n+3){
+    background-color: black;
+}
+
+.second td:last-child{
+    background-color: rgb(168, 166, 166);
+}
+
+.three td:nth-child(2n+3){
+    background-color: white;
+}
+
+.three td:nth-child(2n+2){
+    background-color: black;
+}
+
+.three td:last-child{
+    background-color: rgb(168, 166, 166);
+}
+
+.four td:nth-child(2n+2){
+    background-color: white;
+}
+
+.four td:nth-child(2n+3){
+    background-color: black;
+}
+
+.four td:last-child{
+    background-color: rgb(168, 166, 166);
+}
+
+.five td:nth-child(2n+3){
+    background-color: white;
+}
+
+.five td:nth-child(2n+2){
+    background-color: black;
+}
+
+.five td:last-child{
+    background-color: rgb(168, 166, 166);
+}
+
+.six td:nth-child(2n+2){
+    background-color: white;
+}
+
+.six td:nth-child(2n+3){
+    background-color: black;
+}
+
+.six td:last-child{
+    background-color: rgb(168, 166, 166);
+}
+
+.seven td:nth-child(2n+3){
+    background-color: white;
+}
+
+.seven td:nth-child(2n+2){
+    background-color: black;
+}
+
+.seven td:last-child{
+    background-color:  rgb(168, 166, 166);
+}
+
+.eight td:nth-child(2n+2){
+    background-color: white;
+}
+
+.eight td:nth-child(2n+3){
+    background-color: black;
+}
+
+.eight td:last-child{
+    background-color:  rgb(168, 166, 166);
+}
+
+.nine td:nth-child(2n+3){
+    background-color: white;
+}
+
+.nine td:nth-child(2n+2){
+    background-color: black;
+}
+
+.nine td:last-child{
+    background-color:  rgb(168, 166, 166);
+}
+
+
